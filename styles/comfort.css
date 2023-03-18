@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Tilt+Warp&display=swap');
+
+.page-title{
+    font-family: 'Tilt Warp', cursive;
+    color: #fcd19d;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+    padding:20px;
+    text-shadow: 2px 2px 2px black;
+}
+hr.solid {
+    border-top: 3px solid #8a8a8a;
+  }
+.title-desc{
+    font-family: 'Roboto', sans-serif;
+    font-weight:600;
+    font-size: 19px;
+}
+.comfort-reason-title{
+    font-family: 'Tilt Warp', cursive;
+    color: #fcd19d;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+    padding:10px;
+    text-shadow: 2px 2px 2px black;
+}
+.reason-highlight{
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+.recommended-section{
+    border-left:4px double black;
+}
+
+@media screen and (max-width:990px){
+    .recommended-section{
+        border: none;
+    }
+}
+
+@media screen and (max-width:500px){
+    .title-desc{
+        font-size: 14px;
+    }
+    .reason-highlight{
+        font-size: 1rem;
+        font-weight: 800;
+    }
+
+}

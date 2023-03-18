@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin:0;
+}
+hr.solid {
+    border-top: 3px solid #8a8a8a;
+  }
+.welcome-title{
+    font-family: Roboto;
+    font-weight: 700;
+    color: rgb(107, 64, 11);
+    margin-top: 10px;
+    text-shadow: -2px 2px 2px black;
+}
+.welcome-desc{
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 20px
+}
+.comfort-reason-title{
+    font-family: 'Tilt Warp', cursive;
+    color: #fcd19d;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+    padding:10px;
+    text-shadow: 2px 2px 2px black;
+}
+
+@media screen and (max-width:800px) {
+    .welcome-desc{
+        font-size: 14px;
+    }    
+    .carousel-item{
+        margin-left: 0;
+    }
+}

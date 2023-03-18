@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Tilt+Warp&display=swap');
+
+.bg-custom{
+    background-color: #fcd19d;
+    height: 80px;
+}
+body{
+    background-color: rgb(255, 233, 208);
+}
+
+.nav-logo{
+    font-family: 'Tilt Warp', cursive;
+    color: rgb(107, 64, 11);
+    font-size: 1.5rem;
+}
+.navbar-collapse{
+    background-color: #fcd19d;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.nav-link{
+    font-family: 'Tilt Warp', cursive;
+}
