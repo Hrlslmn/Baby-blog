@@ -36,6 +36,9 @@ hr.solid {
     .recommended-section{
         border: none;
     }
+    .title-desc{
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width:500px){
