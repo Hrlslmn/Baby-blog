@@ -12,7 +12,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-custom px-3 shadow">
+        <nav class="navbar navbar-expand-lg px-3 shadow">
             <div class="container-fluid" style="--bs-gutter-x: 0;">
               <a class="navbar-brand nav-logo" href="#">Mommies Baby</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,7 +27,7 @@
                     <a class="nav-link " href="/pages/comfort_prods.html" >Baby's Comfort</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="#" style="color:rgb(180, 122, 36)" aria-current="page">Mommies Comfort</a>
+                    <a class="nav-link active" href="#" style="color:rgb(180, 122, 36)" aria-current="page">Contact Us</a>
                   </li>
                 </ul>
               </div>
@@ -36,19 +36,20 @@
     </header>
     <main>
       <form action="https://formsubmit.co/sulaimanhairul@gmail.com" method="POST">
-      <div class="container text-center">
+      <div class="container text-center bg-custom shadow my-4 py-4 enquiry-form">
           <div class="row ">
-            <div class="col gy-4">
-              <h1 class="welcome-title">Contact Us</h1>
-              <label for="email">Enter email: </label>
+            <div class="col">
+              <h1 class="page-title">Contact Us</h1>
+              <hr class="divider">
+              <label for="email"class="form-label">Enter email: </label>
               <input type="email" name="email" placeholder="Email Address" required>
-              <input type="hidden" name="_next" value="http://127.0.0.1:5500/pages/form.html">
+              <input type="hidden" name="_next" value="http://127.0.0.1:5500/pages/thank-you.html">
             </div>
           </div>
           <div class="row">
             <div class="col gy-4">
-              <label for="name">Enter name: </label>
-              <input type="text" name="name" required>
+              <label for="name" class="form-label">Enter name: </label>
+              <input type="text" name="name" required placeholder="Enter name">
             </div>
           </div>
           <div class="row">
@@ -56,12 +57,17 @@
               <textarea name="description" required placeholder="enter enquiry here" rows = "2" cols="35"></textarea>
             </div>
           </div>
-          <button type="submit" class="my-4">Send</button>
+          <button type="submit" class="my-4 form-btn shadow" >Send</button>
       </div>
     </form>
-        
-        
-        
+    <footer class= "text-center text-lg-start page-footer">
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2023 Copyright:
+        <a class="text-dark" href="https://mdbootstrap.com/">Mommiesbaby.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>  
     </main>
 </body>
 </html>

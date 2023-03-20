@@ -1,0 +1,41 @@
+body{
+    position: relative;
+}
+.thank-you{
+    position: absolute;
+    left: 50px;
+    top: 100px;
+    background-color: #7a4c14;
+    padding: 20px;
+    border: 6px double #fcd19d;
+    border-radius: 20px;
+}
+.comfort-reason-title{
+    text-align: center;
+    font-family: 'Tilt Warp', cursive;
+    color: #fcd19d;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+    padding:10px;
+    text-shadow: 2px 2px 2px black;
+}
+.form-btn{
+    font-family: 'Tilt Warp', cursive;
+    background-color: #030303;
+    padding: 5px 25px 5px 25px;
+    border-radius: 25px;
+    text-align: center;
+    border: 2px solid #fcd19d;
+}
+
+.form-btn a{
+    color:#fcd19d
+}
+.page-footer{
+    border-top: 4px double black;
+    color: #311b01;
+    position: absolute;
+    top: 100vh;
+    width: 100%;
+    background-color:#fcd19d;
+}

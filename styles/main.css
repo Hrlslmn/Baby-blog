@@ -5,6 +5,21 @@
 hr.solid {
     border-top: 3px solid #8a8a8a;
   }
+
+body{
+    position: relative;
+}
+main{
+    padding-bottom: 60px;
+}
+.page-footer{
+    border-top: 4px double black;
+    color: #311b01;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color:#fcd19d;
+}
 .welcome-title{
     font-family: Roboto;
     font-weight: 700;
