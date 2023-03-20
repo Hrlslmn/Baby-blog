@@ -23,12 +23,7 @@
     width: 100%;
     background-color:#fcd19d;
 }
-.bg-form{
-    background-color: #fcd19d;
-    height: 380px;
-    border: double 4px black;
-    border-radius: 25px;
-}
+
 .form-btn{
     font-family: 'Tilt Warp', cursive;
     background-color: #7a4c14;

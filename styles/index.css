@@ -4,6 +4,12 @@
     background-color: #fcd19d;
     height: 80px;
 }
+.bg-form{
+    background-color: #fcd19d;
+    height: 380px;
+    border: double 4px black;
+    border-radius: 25px;
+}
 body{
     background-color: rgb(255, 233, 208);
 }
