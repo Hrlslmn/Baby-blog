@@ -1,0 +1,30 @@
+
+main{
+    position: relative;
+}
+
+button{
+    margin: 20px;
+    background-color: #311b01;
+    color: #fcd19d;
+    border-radius: 20px;
+    padding: 8px;
+}
+.page-footer{
+    border-top: 4px double black;
+    color: #311b01;
+    width: 100%;
+    background-color:#fcd19d;
+    position: absolute;
+}
+.comfort-reason-title{
+    font-family: 'Tilt Warp', cursive;
+    color: #fcd19d;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+    padding:10px;
+    text-shadow: 2px 2px 2px black;
+}
+.first-essential{
+    margin-top: 40px;
+}
